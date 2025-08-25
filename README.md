@@ -4,7 +4,10 @@
 ## Overview
 This Python-based tool performs a **comprehensive security scan** for any website or IP address.  
 It includes network diagnostics, subdomain discovery, DNS enumeration, SSL/TLS analysis, and safety verification.
-(https://img.shields.io/badge/Python-3.8%252B-blue?logo=python)(MyLogo)
+# My Project
+
+![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)
 
 The tool provides a **graphical user interface (GUI)** with a **live log** and automatically generates **HTML and TXT reports**.
 

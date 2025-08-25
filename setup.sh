@@ -30,4 +30,4 @@ sudo apt install -y nmap mtr openssl
 echo "[✓] Setup completed!"
 echo "To start the scanner, activate the virtual environment:"
 echo "source venv/bin/activate"
-echo "python web_security_scanner.py"
+echo "python ScanWeb.py"

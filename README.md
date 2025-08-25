@@ -1,5 +1,5 @@
 
-# Website Security Scanner - Advanced
+# 🔍 Website Security Scanner - Advanced
 
 ## Overview
 This Python-based tool performs a **comprehensive security scan** for any website or IP address.  

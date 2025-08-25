@@ -1,7 +1,6 @@
 🔍 Advanced Website Security Scanner
-https://img.shields.io/badge/Python-3.8%252B-blue?logo=python
-https://img.shields.io/badge/Platform-Windows%2520%257C%2520Linux-lightgrey
-https://img.shields.io/badge/License-MIT-green
+
+
 
 A comprehensive, GUI-based security scanning tool that performs in-depth analysis of websites and network infrastructure with detailed reporting capabilities.
 
@@ -149,3 +148,4 @@ Python community for excellent libraries
 Security researchers worldwide for their contributions
 
 Note: Always practice responsible disclosure and ethical security testing. Happy scanning! 🔍
+

@@ -1,0 +1,11 @@
+# Python dependencies
+requests>=2.31.0
+python-whois>=0.8.0
+beautifulsoup4>=4.12.2
+dnspython>=2.4.2
+pyOpenSSL>=23.2.0
+python-whois>=0.8.0
+# System tools required (install via OS package manager)
+# Ubuntu/Debian: sudo apt install nmap mtr openssl
+# Windows: install Nmap (https://nmap.org/download.html) and MTR alternative (WinMTR)
+# Windows: install python OpenSSL package if needed

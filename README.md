@@ -49,17 +49,16 @@ The tool provides a **graphical user interface (GUI)** with a **live log** and a
 
 ### Linux
 ```bash
-git clone <repository-url>
-cd <repository-folder>
-chmod +x setup_crossplatform.py
-python3 setup_crossplatform.py
+git clone [<repository-url>](https://github.com/torevar5544/ScanWeb.git)
+cd ScanWeb
+
 ```
 
 ### Windows
 ```bat
-git clone <repository-url>
-cd <repository-folder>
-python setup_crossplatform.py
+git clone https://github.com/torevar5544/ScanWeb.git
+cd ScanWeb
+
 ```
 
 The setup script will:
@@ -77,11 +76,11 @@ The setup script will:
 ```bash
 # Linux
 source venv/bin/activate
-python web_security_scanner.py
+python ScanWeb.py
 
 # Windows
 call venv\Scripts\activate.bat
-python web_security_scanner.py
+python ScanWeb.py
 ```
 
 2. Enter a **domain or IP** in the GUI input box.

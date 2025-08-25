@@ -114,7 +114,6 @@ dnspython>=2.4.2
 
 ## Security & Legal
 This tool is intended for **educational and authorized security testing only**.  
-**Do not use it on systems you do not own or do not have permission to test.**
 
 ---
 

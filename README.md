@@ -49,7 +49,7 @@ The tool provides a **graphical user interface (GUI)** with a **live log** and a
 
 ### Linux
 ```bash
-git clone [<repository-url>](https://github.com/torevar5544/ScanWeb.git)
+git clone https://github.com/torevar5544/ScanWeb.git
 cd ScanWeb
 
 ```

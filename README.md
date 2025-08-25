@@ -1,70 +1,151 @@
-# Website Security Scanner - Advanced
+🔍 Advanced Website Security Scanner
+https://img.shields.io/badge/Python-3.8%252B-blue?logo=python
+https://img.shields.io/badge/Platform-Windows%2520%257C%2520Linux-lightgrey
+https://img.shields.io/badge/License-MIT-green
 
-## Overview
-This Python-based tool performs a **comprehensive security scan** for any website or IP address.  
-It includes network diagnostics, subdomain discovery, DNS enumeration, SSL/TLS analysis, and safety verification.
+A comprehensive, GUI-based security scanning tool that performs in-depth analysis of websites and network infrastructure with detailed reporting capabilities.
 
-The tool provides a **graphical user interface (GUI)** with a **live log** and automatically generates **HTML and TXT reports**.
+✨ Features
+🛡️ Comprehensive Security Analysis
+Port Scanning: Complete port mapping with service detection
 
----
+Network Diagnostics: Real-time MTR tracing for route analysis
 
-## Features
+DNS Enumeration: Complete DNS record analysis (A, AAAA, MX, NS, TXT)
 
-### Network Scans
-- Full port scan (`nmap -p- -T4`)
-- Detailed scan (`nmap -sS -sV -sC -O -T4`)
-- Live **MTR trace** for 60 seconds
+Subdomain Discovery: Automated discovery of common subdomains
 
-### WHOIS Lookup
-- Domain registration info (Registrar, Owner, Dates, etc.)
+📊 Advanced Reporting
+Dual Format Reports: Automatically generates both HTML and TXT reports
 
-### GeoIP Lookup
-- Uses [iplocation.net](https://www.iplocation.net) for country, city, and ISP info
+Visual Interface: Clean, dark-themed GUI with real-time logging
 
-### Subdomain Enumeration
-- Checks common subdomains like `www`, `mail`, `ftp`, `blog`, `dev`, `api`, `shop`, `test`, `portal`, `webmail`
+Export Ready: Professional formatting for security assessments
 
-### DNS Records
-- Retrieves A, AAAA, MX, NS, and TXT records
+🌐 Network Intelligence
+WHOIS Integration: Complete domain registration information
 
-### Safety & Reputation
-- Checks **ScamAdviser** website status
-- Checks **Cloudflare Radar** scan availability
+GeoIP Location: IP geolocation with ISP and network details
 
-### SSL/TLS Analysis
-- Validates certificate
-- Extracts CN and SANs
-- Checks expiration date
-- Lists supported TLS protocols and cipher suites
-- Detects known SSL vulnerabilities
+Infrastructure Mapping: Comprehensive network service discovery
 
-### Reports
-- HTML and TXT files saved in `reports/`
-- Easy access to ScamAdviser and Cloudflare Radar links
+🚀 Quick Start
+Prerequisites
+Python 3.8 or higher
 
----
+Nmap installed on your system
 
-## Installation
+MTR (Linux) or WinMTR (Windows)
 
-### Linux
-```bash
-git clone <repository-url>
-cd <repository-folder>
+Installation
+bash
+# Clone the repository
+git clone https://github.com/yourusername/website-security-scanner.git
+cd website-security-scanner
 
-### Windows
-git clone <repository-url>
-cd <repository-folder>
+# Install Python dependencies
+pip install -r requirements.txt
+Usage
+bash
+# Run the scanner
+python web_security_scanner.py
+Enter a domain or IP address in the input field
 
+Click "Start Scan" to begin the security assessment
 
-The setup script will:
+Monitor real-time progress in the logging panel
 
-**Install Python (if missing)**
+Access generated reports in the reports/ directory
 
-**Create a virtual environment**
+📋 Scan Capabilities
+Feature	Description
+Full Port Scan	Comprehensive -p- scan identifying all open ports
+Service Detection	Version detection for running services
+OS Fingerprinting	Remote operating system identification
+Network Tracing	MTR integration for route analysis
+DNS Analysis	Complete DNS record enumeration
+Subdomain Discovery	Automated subdomain enumeration
+WHOIS Lookup	Domain registration information
+GeoIP Location	Geographic IP location data
+📁 Report Sample
+Generated reports include:
 
-**Install Python dependencies**
+Executive summary of findings
 
-**Install system tools (Nmap, MTR, OpenSSL / WinMTR)**
+Detailed technical analysis
 
-**Launch the scanner after setup**
+Network mapping results
 
+Security recommendations
+
+Timestamped documentation
+
+Example report structure:
+
+text
+reports/
+├── report_example.com_2024-01-15_14-30-25.html
+└── report_example.com_2024-01-15_14-30-25.txt
+🛠️ Technical Details
+Built With
+Python 3.8+ - Core programming language
+
+Tkinter - GUI framework
+
+Nmap - Network discovery and security auditing
+
+DNS Python - DNS toolkit for Python
+
+MTR - Network diagnostic tool
+
+System Requirements
+Windows: Nmap, WinMTR
+
+Linux: nmap, mtr-tiny
+
+macOS: nmap, mtr
+
+🤝 Contributing
+We welcome contributions! Please feel free to submit pull requests, report bugs, or suggest new features.
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+⚠️ Legal Disclaimer
+This tool is intended for educational purposes and authorized security testing only.
+
+🚫 Do not use on networks or systems without explicit permission
+
+🔒 Ensure you have proper authorization before scanning any target
+
+📜 The developers are not responsible for misuse of this tool
+
+Always comply with local laws and regulations regarding network scanning and security testing.
+
+📞 Support
+If you have any questions or need help with the scanner:
+
+Open an Issue
+
+Check the Wiki for documentation
+
+Email: your.email@example.com
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+🏆 Acknowledgments
+Nmap Project for the incredible scanning engine
+
+Python community for excellent libraries
+
+Security researchers worldwide for their contributions
+
+Note: Always practice responsible disclosure and ethical security testing. Happy scanning! 🔍
